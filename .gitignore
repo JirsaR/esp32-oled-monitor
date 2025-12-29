@@ -1,0 +1,38 @@
+# Configuration files
+config.h
+secrets.h
+credentials.h
+
+# Arduino build files
+*.ino.cpp
+*.ino.elf
+*.ino.eep
+*.ino.bin
+*.ino.hex
+
+# PlatformIO
+.pio/
+.platformio/
+
+# Arduino IDE
+arduino_build/
+
+# VS Code Arduino extension
+.vscode/arduino*
+
+# macOS
+.DS_Store
+
+# Windows  
+Thumbs.db
+
+# ESP32 specific
+firmware.bin
+esp32_firmware.bin
+
+# Log files
+*.log
+
+# Temp files
+*.tmp
+*.temp
